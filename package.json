@@ -1,6 +1,6 @@
 {
   "name": "capacitor-udid",
-  "version": "0.0.2",
+  "version": "0.0.21",
   "description": "Plugin to retrieve a persistent UDID across app reinstalls on iOS and Android",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -13,14 +13,14 @@
     "ios/Plugin/",
     "CapacitorUdid.podspec"
   ],
-  "author": "Abdulaziz Aljadaan",
+  "author": "Abdulaziz Aljadaan & Graham Becker",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aljadan/capacitor-udid.git"
+    "url": "git+https://github.com/PyramidGlobalCommTech/capacitor-udid.git"
   },
   "bugs": {
-    "url": "https://github.com/aljadan/capacitor-udid/issues"
+    "url": "https://github.com/PyramidGlobalCommTech/capacitor-udid/issues"
   },
   "keywords": [
     "capacitor",
@@ -48,10 +48,10 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "@capacitor/android": "^6.0.0",
-    "@capacitor/core": "^6.0.0",
+    "@capacitor/android": "^5.0.0",
+    "@capacitor/core": "^5.0.0",
     "@capacitor/docgen": "^0.2.2",
-    "@capacitor/ios": "^6.0.0",
+    "@capacitor/ios": "^5.0.0",
     "@ionic/eslint-config": "^0.3.0",
     "@ionic/prettier-config": "^1.0.1",
     "@ionic/swiftlint-config": "^1.1.2",
@@ -64,7 +64,7 @@
     "typescript": "~4.1.5"
   },
   "peerDependencies": {
-    "@capacitor/core": "^6.0.0"
+    "@capacitor/core": "^5.0.0"
   },
   "prettier": "@ionic/prettier-config",
   "swiftlint": "@ionic/swiftlint-config",
