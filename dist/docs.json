@@ -1,0 +1,25 @@
+{
+  "api": {
+    "name": "UdidPlugin",
+    "slug": "udidplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "getUdid",
+        "signature": "() => Promise<{ value: string; }>",
+        "parameters": [],
+        "returns": "Promise<{ value: string; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "getudid"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
